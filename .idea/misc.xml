@@ -3,13 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyApplication2/app/src/main/res/drawable-v24/textbox.xml" value="0.1345" />
+        <entry key="..\:/MyApplication2/app/src/main/res/drawable/accept_button.xml" value="0.1345" />
         <entry key="..\:/MyApplication2/app/src/main/res/drawable/bg_et_message.xml" value="0.1" />
         <entry key="..\:/MyApplication2/app/src/main/res/drawable/bg_reciever.xml" value="0.1455" />
         <entry key="..\:/MyApplication2/app/src/main/res/drawable/bg_sender.xml" value="0.1" />
-        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_chat_detail.xml" value="0.25" />
+        <entry key="..\:/MyApplication2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1345" />
+        <entry key="..\:/MyApplication2/app/src/main/res/drawable/ic_email_24.xml" value="0.1345" />
+        <entry key="..\:/MyApplication2/app/src/main/res/drawable/ic_person_24.xml" value="0.1345" />
+        <entry key="..\:/MyApplication2/app/src/main/res/drawable/linear_bg.xml" value="0.1" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/accept_button.xml" value="0.23513513513513515" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_chat_detail.xml" value="0.1" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_group_chat.xml" value="0.1" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.23243243243243245" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_settings.xml" value="0.22" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_splash_screen.xml" value="0.23513513513513515" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_welcome_screen.xml" value="0.23513513513513515" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/fragment_calls.xml" value="0.13" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/fragment_chats.xml" value="0.12295081967213115" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/fragment_status.xml" value="0.1108161911081619" />

@@ -5,9 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/w1"
+    android:background="@color/black"
     android:gravity="center"
     tools:context=".SignUpActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,13 +25,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/ic_whatsapp"
 
-            tools:ignore="ContentDescription" />
 
         <EditText
             android:id="@+id/txtUsername"
@@ -33,41 +33,51 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:drawableStart="@drawable/ic_person_24"
+            android:drawablePadding="10sp"
+            android:background="@drawable/textbox"
             android:ems="10"
             android:hint="Username"
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"
-            tools:ignore="HardcodedText"
-            android:autofillHints="" />
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/txtEmail"
+            android:background="@drawable/textbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawableTint="@color/black"
+            android:drawablePadding="10sp"
             android:ems="10"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"
             tools:ignore="HardcodedText,TextContrastCheck"
             android:autofillHints="" />
 
         <EditText
             android:id="@+id/txtPassword"
+            android:background="@drawable/textbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:drawableStart="@drawable/otp"
+            android:drawablePadding="10sp"
             android:hint="Password"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
+            android:textColor="@color/black"
             android:textColorHint="@color/chatbackground"
             tools:ignore="HardcodedText"
             android:autofillHints="" />
@@ -90,8 +100,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Sign Up"
+            android:backgroundTint="@color/gold"
             android:textAllCaps="false"
-            app:backgroundTint="@color/design_default_color_secondary_variant"
+            android:textColor="@color/black"
             app:cornerRadius="8dp"
             tools:ignore="HardcodedText,TextContrastCheck" />
 
